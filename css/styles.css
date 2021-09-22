@@ -1,0 +1,16 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(15, 64, 182);
+    color: white;
+    display: flex;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    margin: 1rem 0;
+    display: flex;
+}
