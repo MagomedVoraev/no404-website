@@ -8,26 +8,43 @@
         content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>No404 - Agence Web</title>
+    <link rel="shortcut icon" type="image/png"
+        href="/images/infinity.png" />
+    <title>No404</title>
 </head>
 
 <body>
 
     <!-- there are 5 elements in navbar -->
-    <header>
+    <header class="header">
 
-        <img src="" alt="logo de no404">
+        <div class="header_div">
 
-        <a href="#">Contactez-nous : 01 03 29 30 29</a>
+            <img class="header__logo" src="" alt="logo de no404">
 
-        <nav>
-            <ul>
-                <li>Méthode de travail</li>
-                <li>Votre produit</li>
-                <li>Pourquoi Flutter ?</li>
-                <li>A propos de nous</li>
-            </ul>
-        </nav>
+            <a class="header__contact-us" href="#">Contactez-nous : 01
+                03
+                29 30 29</a>
+
+            <nav class="header__nav">
+                <ul class="header__nav-ul">
+                    <li class="nav-ul__li"> <a href="#">Méthode de
+                            travail</a>
+                    </li>
+                    <li class="nav-ul__li"><a href="#">Votre
+                            produit</a>
+                    </li>
+                    <li class="nav-ul__li"><a href="#">Pourquoi
+                            Flutter ?</a>
+                    </li>
+                    <li class="nav-ul__li">
+                        <a href="#">A propos de nous</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
     </header>
 
 
@@ -195,6 +212,13 @@
     <!-- 3 divs -->
     <footer></footer>
 
+    <script
+        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player
+        src="https://assets9.lottiefiles.com/packages/lf20_PBgNop.json"
+        mode="bounce" background="transparent" speed="1"
+        style="width: 300px; height: 300px;" loop autoplay>
+    </lottie-player>
 
     <script type="text/javascript" src="/scripts/script.js"></script>
 </body>
