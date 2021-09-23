@@ -1,10 +1,13 @@
 :root {
-    --main-color: rgb(15, 64, 182);
+    --main-color: #0166CC;
     --header-side-margin: 2rem;
-    --page-width: 85%;
+    --page-width: 90%;
     --header-height: 5rem;
-    --font-size: 1.2em;
+    --header-font-size: 16px;
+    --header-font-color: #141923;
     --font-color: white;
+    --main-margin-top: 2.2rem;
+    --title-font-size: 2rem;
 }
     /* 
     utililser l'élément déclaré dans root 
@@ -14,8 +17,10 @@
 
 /* GENERAL */
 
-a {
-    color: white;
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
 }
 
 
@@ -23,59 +28,60 @@ a {
 /* HEADER */
 
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: var(--main-color);
-    height: var(--header-height);
-    display: flex;
-    align-items: center;
-    font-size: var(--font-size);
-
-}
-
-.header_div {
     width: var(--page-width);
-    color: var(--font-color);
-    display: flex;
+    height: var(--header-height);
+    font-size: var(--header-font-size);
     margin: auto;
 }
-
-.header__logo {
-    width: 25%;
-    margin:auto;
-}
-
-.header__contact-us {
-    width: 25%;
-    font-size: 0.9em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .header__nav {
     display: flex;
     justify-content: flex-end;
-    width: 80%;
 }
 
 .header__nav-ul {
-    width: 70%;
+    margin-top: var(--main-margin-top);
     display: flex;
+    width: 30%;
     justify-content: space-between;
 }
 
 .nav-ul__li a {
+    text-align: center;
     /* display: flex;
     justify-content: space-between; */
+}
+
+.img-logo {
+    height: 40px;
+    width: 40px;
+    /* display: grid;
+    place-content: center; */
+    margin-top: var(--main-margin-top);
 }
 
 /* MAIN */
 
 main {
-    margin: 5rem 0 0 0;
+    margin: var(--main-margin-top) 0 0 0;
+    display: flex;
+    flex-direction: column;
 }
+
+.slogan {
+    margin-top: var(--main-margin-top);
+    border: 2px solid black;
+    text-align: center;
+}
+
+.slogan__catchphrase {
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: var(--title-font-size);
+}
+
+
+
+
 
 
 

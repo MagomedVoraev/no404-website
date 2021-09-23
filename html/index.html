@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="shortcut icon" type="image/png"
         href="/images/infinity.png" />
+    <!-- font : Source Sans Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- roboto -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>No404</title>
 </head>
 
@@ -17,33 +28,18 @@
 
     <!-- there are 5 elements in navbar -->
     <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav-ul">
+                <li class="nav-ul__li"> <a href="#">Menu #1</a>
+                </li>
+                <li class="nav-ul__li"><a href="#">Menu #2</a>
+                </li>
+                <li class="nav-ul__li"><a href="#">Menu #3</a>
+                </li>
+            </ul>
+        </nav>
 
-        <div class="header_div">
-
-            <img class="header__logo" src="" alt="logo de no404">
-
-            <a class="header__contact-us" href="#">Contactez-nous : 01
-                03
-                29 30 29</a>
-
-            <nav class="header__nav">
-                <ul class="header__nav-ul">
-                    <li class="nav-ul__li"> <a href="#">Méthode de
-                            travail</a>
-                    </li>
-                    <li class="nav-ul__li"><a href="#">Votre
-                            produit</a>
-                    </li>
-                    <li class="nav-ul__li"><a href="#">Pourquoi
-                            Flutter ?</a>
-                    </li>
-                    <li class="nav-ul__li">
-                        <a href="#">A propos de nous</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
+        <img class="img-logo" src="../images/logo.svg" alt="">
 
     </header>
 
@@ -53,8 +49,19 @@
 
         <section>
 
+            <div class="slogan">
+                <h1 class="slogan__catchphrase">Créons ensemble votre
+                    application
+                    sur mesure.</h1>
+
+                <p class="slogan__description">Nous réalisons des
+                    applications mobiles,
+                    plateformes web et interfaces d'administration sur
+                    mesure et clé en main.</p>
+            </div>
+
             <div>
-                <h2>Une méthode de travail unique</h2>
+                <h2 class="">Une méthode de travail unique</h2>
 
                 <p>Nous utilisons les meilleurs outils, process et
                     technologies pour votre projet. Notre objectif est
@@ -67,7 +74,8 @@
             </div>
 
             <div>
-                <img src="../images/cost.png" alt="coûts maîtrisés">
+                <img class="" src="../images/costs.svg"
+                    alt="coûts maîtrisés">
                 <h3>Coûts maîtrisés</h3>
                 <p>Nous utilisons des technologies et process
                     innovants permettant de vous faire économiser en
@@ -79,7 +87,7 @@
             </div>
 
             <div>
-                <img src="../images/rocket.png"
+                <img src="../images/rocket.svg"
                     alt="efficacité et réactivité">
                 <h3>Efficacité et réactivité</h3>
                 <p>Nous mettons en place une équipe sénior adéquate,
@@ -92,7 +100,7 @@
             </div>
 
             <div>
-                <img src="../images/infinity.png"
+                <img src="../images/infinity.svg"
                     alt="Accompagnement">
                 <h3>Accompagnement</h3>
                 <p>Nous sommes impliqués à 100% dans les projets de
@@ -210,7 +218,8 @@
 
 
     <!-- 3 divs -->
-    <footer></footer>
+    <footer>
+    </footer>
 
     <script
         src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

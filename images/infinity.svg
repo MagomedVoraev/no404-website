@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#32fbfc"/>
+      <stop offset="1" stop-color="#1c0fd7"/>
+    </linearGradient>
+    <filter id="Rectangle_9" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#240880" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_1131" data-name="Сгруппировать 1131" transform="translate(-1506 -1588)">
+    <g id="Group_8" data-name="Group 8" transform="translate(1506 1588)">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9)">
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" width="80" height="80" rx="14" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="infinite-mathematical-symbol" transform="translate(1522 1577.956)">
+      <g id="Сгруппировать_1" data-name="Сгруппировать 1" transform="translate(0 38.631)">
+        <path id="Контур_4" data-name="Контур 4" d="M37.178,38.631c-6.837,0-11.362,5.83-15.354,10.974C18.413,54,15.193,58.15,11.27,58.15c-4.077,0-6.581-4.37-6.581-7.5,0-2.9,2.746-7.126,7.05-7.126A7.989,7.989,0,0,1,18.2,47.186a2.289,2.289,0,0,0,3.214.8,2.506,2.506,0,0,0,.782-3.36c-.143-.244-3.583-6-10.458-6C4.822,38.631,0,44.965,0,50.647,0,56.509,4.628,63.04,11.27,63.04c6.159,0,10.247-5.266,14.2-10.359,3.656-4.71,7.11-9.16,11.709-9.16,2.737,0,4.535.968,5.5,2.957a10.245,10.245,0,0,1,.832,4.357A10.7,10.7,0,0,1,42.4,54.923a4.843,4.843,0,0,1-4.642,2.926,9.382,9.382,0,0,1-7.479-4,5.218,5.218,0,0,0-.608-.685,2.28,2.28,0,0,0-3.306.266,2.52,2.52,0,0,0,.153,3.35c.042.05.093.116.154.193a13.876,13.876,0,0,0,11.085,5.768c7.888,0,10.438-8.02,10.438-11.936a14.917,14.917,0,0,0-1.333-6.523C45.618,41.7,42.928,38.631,37.178,38.631Z" transform="translate(0 -38.631)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
