@@ -137,7 +137,6 @@ main {
 .slogan__img {
     margin-top: 44px;
     width: 940px;
-    border: 3px solid black;
     object-fit: cover;
 }
 
